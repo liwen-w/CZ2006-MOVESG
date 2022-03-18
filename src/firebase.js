@@ -18,16 +18,6 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-<<<<<<< HEAD
-
-=======
-    apiKey: "AIzaSyBy4x_GiKVICeFghIRFKyScyH3rQPmG068",
-    authDomain: "movesg-auth.firebaseapp.com",
-    projectId: "movesg-auth",
-    storageBucket: "movesg-auth.appspot.com",
-    messagingSenderId: "47861727736",
-    appId: "1:47861727736:web:cb0862a8907ee6ada4560d"
->>>>>>> 0597a78e2019011dba65a1dcf0f4507cf9db3888
 };
 
 const app = initializeApp(firebaseConfig);
@@ -103,10 +93,4 @@ export {
   registerWithEmailAndPassword,
   sendPasswordReset,
   logout,
-<<<<<<< HEAD
 };
-=======
-};
-
-
->>>>>>> 0597a78e2019011dba65a1dcf0f4507cf9db3888
