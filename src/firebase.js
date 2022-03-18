@@ -18,12 +18,7 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBy4x_GiKVICeFghIRFKyScyH3rQPmG068",
-    authDomain: "movesg-auth.firebaseapp.com",
-    projectId: "movesg-auth",
-    storageBucket: "movesg-auth.appspot.com",
-    messagingSenderId: "47861727736",
-    appId: "1:47861727736:web:cb0862a8907ee6ada4560d"
+
 };
 
 const app = initializeApp(firebaseConfig);
