@@ -1,26 +1,34 @@
-import Navbar from './components/Navbar';
-import Login from './components/Login';
-
+import React from 'react';
+import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
+import Navbar from './components/Navbar/Navbar';
+import Login from './components/LoginRegister/Login';
+import Register from './components/LoginRegister/Register';
+import Reset from './components/LoginRegister/Reset';
+import Dashboard from './components/LoginRegister/Dashboard';
+
+import Home from './components/homePage/Home';
 
 function App() {
   return (
+    
     <>
+        <BrowserRouter>
+          <Navbar />
 
-      <BrowserRouter>
-        <Navbar />
 
-        <Routes>
+          <Routes>
 
-            <Route path = "/" />
+              <Route path = "/" element = {<Home/>}/>
+              <Route path = "/login" element={<Login/>}/>
+              <Route path = "/register" element={<Register/>}/>
+              <Route path = "/reset" element={<Reset/>}/>
+              <Route path = "/dashboard" element={<Dashboard/>}/>
 
-            <Route path = "/login" element={<Login />}/>
-
-        </Routes>
-      </BrowserRouter>
+          </Routes>
+        </BrowserRouter>
     </>
-
 
   );
 }
