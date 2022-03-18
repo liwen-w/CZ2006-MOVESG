@@ -101,7 +101,7 @@ class Map extends Component {
   render () {
     return (
       <LoadScript
-      googleMapsApiKey="API_KEY"
+      googleMapsApiKey=""
       >
       <div className='map'>
         <div className='map-settings'>
