@@ -27,9 +27,9 @@ function Navbar() {
 
   return (
     <>
-        <nav className="navbar">
+        <div className="navbar">
             <div className="navbar-container">
-                <Link to ="/" className="navbar-logo">
+                <Link to ="/" className="navbar-logo" onClick={closeMobileMenu}>
                     MOVE SG <i class="fa-solid fa-person-walking"></i>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
@@ -72,7 +72,7 @@ function Navbar() {
 
 
             </div>
-        </nav>
+        </div>
 
 
     </>

@@ -1,0 +1,62 @@
+.register {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-login-bg{
+    margin-right: 80px;
+  }
+
+  .register__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f5e1c6;
+    border: 0.5px solid rgb(152, 152, 152);
+    padding: 30px;
+    border-radius: 15px;
+  }
+  .register__textBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  .register__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+  }
+  .register__google {
+    background-color: #4285f4;
+    border-radius: 5px;
+    border: none;
+  }
+  .register div {
+    margin-top: 7px;
+  }
+
+  .login-button{
+    text-decoration: none;
+    color: rgb(221, 76, 76);
+  }
+
+  .login-button:hover{
+    text-decoration-color: rgb(221, 76, 76);
+    text-decoration: 3px underline;
+  }
+
+  @media screen and (max-width: 960px){
+
+    .div-login-bg{
+        display: none;
+    }
+  }
