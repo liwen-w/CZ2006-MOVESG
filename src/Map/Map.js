@@ -4,7 +4,7 @@ import { GoogleMap, LoadScript, KmlLayer, DirectionsService, DirectionsRenderer,
 import './Map.css';
 //const google = window.google;
 Geocode.setLanguage("en");
-Geocode.setApiKey("AIzaSyD2dx7c7xhsWTdcSkDnt8YgNZdVVc2LGbw");
+Geocode.setApiKey("");
 class Map extends Component {
   constructor (props) {
     super(props)
@@ -255,7 +255,7 @@ class Map extends Component {
   render () {
     return (
       <LoadScript
-      googleMapsApiKey="AIzaSyD2dx7c7xhsWTdcSkDnt8YgNZdVVc2LGbw"
+      googleMapsApiKey=""
       libraries={["places"]}
       >
         <div className='map'> 
